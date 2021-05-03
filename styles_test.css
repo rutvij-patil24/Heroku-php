@@ -1,0 +1,106 @@
+*{margin: 0;padding: 0;box-sizing: border-box;font-family: 'Josefin Sans', sans-serif;}
+
+
+html{
+	font-size: 62.5%;
+}
+
+header{
+	width: 100%;
+	height: 100vh;
+	background-image: url('images/bg.png');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.mainheader{
+	width: 100%;
+	height: 10rem;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.mainheader .logo img{
+	width: 80%;
+	height: 50%;
+}
+
+.mainheader nav{
+	width: 40%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.mainheader nav a{
+	text-decoration: none;
+	color: #000000;
+	text-transform: uppercase;
+}
+
+.mainheader button{
+	padding: 1rem 1rem;
+	text-align: center;
+	font-size: 1.4rem;
+	color: #ffffff;
+	border: none;
+	background-image: linear-gradient(to right,#649bff,#0070fa,#649bff);
+	border-radius: 1rem;
+	text-transform: uppercase;
+}
+
+main{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+main .right-sec{
+	padding-right: 7rem;
+}
+
+main .left-sec{
+	padding-left: 10rem;
+}
+
+.left-sec h2{
+	font-size: 2rem;
+	text-transform: capitalize;
+	font-weight: lighter;
+	color: #242424;
+	margin-top: 8rem;
+}
+
+.left-sec h1{
+	font-size: 5.5rem;
+	text-transform: capitalize;
+	font-weight: bold;
+	margin: 1.5rem 0;
+}
+
+.left-sec p{
+	margin-bottom: 2rem;
+}
+
+.left-sec button{
+	margin-top: 5%;
+	margin-left: 5%;
+	padding: 1rem 3rem;
+	text-align: center;
+	font-size: 2rem;
+	color: #ffffff;
+	border: none;
+	background-image: linear-gradient(to right,#649bff,#0070fa,#649bff);
+	border-radius: 1rem;
+	text-transform: uppercase;
+}
+
+table{
+	font-size: 2.5rem;
+}
+table,th,td{
+	padding: 0.5rem;
+	border: 0.2rem solid #000000;
+}
